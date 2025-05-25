@@ -1,0 +1,6 @@
+# action.yml
+name: 'Write Good'
+description: 'Checks all .md files are written good'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
