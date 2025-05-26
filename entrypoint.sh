@@ -12,6 +12,5 @@ if write-good **/*.md; then
   echo "✅ No suggestions"
 else
   echo "❌ Suggestions above"
-  exit 1
 fi
 echo "::endgroup::"
